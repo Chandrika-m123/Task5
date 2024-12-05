@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchShop - Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SONATA Watch Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Our Products</h2>
+        <div class="product-container" id="product-list">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+        <div id="watch-details" class="details-container" >
+            <h3 align="left">Watch Details</h3>
+            <div class="image-container">
+                <img id="watch-image" src="" alt="Watch Image" style="display:none;">
+            </div>
+            <div class="watch-info">
+                <h3 id="watch-name"></h3>
+                <p id="watch-price"></p>
+                <p id="watch-description"></p>
+                <button id="add-to-cart-button" style="display:none;">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 WatchShop. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
